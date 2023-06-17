@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:  rgb(0, 79, 157);
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0%;
+    background-color: rgb(144, 198, 253);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12em;
+    align-items: center;
+    height: 4em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    font-weight: 700;
+    font-family: 'Heebo', sans-serif;
+}
+
+.logo {
+    font-size: 10px;
+}
+
+.profile-box {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-box-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+/* Search */
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15em;
+}
+
+.searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 20em;
+    height: 3em;
+    padding-left: 10px;
+    outline: none;
+}
+
+.searchBtn {
+    width: 3em;
+    height: 3em;
+    color: white;
+    background: rgb(0, 79, 157);
+    border: none;
+    border-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -5px;
+ 
+}
+
+.LocationDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.Location {
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 4px;
+    outline: none;
+    font-family: 'Jost', sans-serif;
+}
+
+option {
+    line-height: 40px;
+}
+
+/* Loader */
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loader {    
+    margin-top: 20px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* Buy Page */
+.PopularRow {
+    border-radius: 0px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.PopularTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+    font-size: 27px;
+}
+
+.RowFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.PopularDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.PopularImg {
+    width: 19em;
+    height: 13em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: contain;
+}
+
+.imgDetals {
+padding: 15px;
+line-height: 30px;
+}
+
+/* Result */
+.Result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Jost', sans-serif;
+}
+
+.numbers {
+    word-spacing: 30px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+}
+
+.Sort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5em;
+    height: 1.7em;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Next */
+.NextList {
+   text-align: center;
+   word-spacing: 30px;
+   margin-top: 60px;
+   margin-bottom: 100px;
+   font-size: 18px;
+   font-family: 'Jost', sans-serif;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12em;
+    height: 22vh;
+    background-color: rgb(144, 198, 253);
+    padding-top: 40px;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+.footerMain {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    text-decoration: none;
+}
+.Nav {
+    background: #ffffff;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    place-content: center;
+    border-bottom: 1px solid rgba(145, 142, 155, 0.2);
+    font-family: "Inter", sans-serif;
+    gap: 30em;
+    position: sticky;
+    top: 0%;
+}
+
+.Nav-Text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    text-decoration: none;
+    color: #2B283A;
+    font-size: 18px;
+}
+
+.Nav-Two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.Author-Name {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #2c2c2d;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.Date {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #918E9B;
+    margin-bottom: 30px;
+}
+
+.Stack {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: rgb(62, 60, 60);
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 7em;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(145, 142, 155, 0.2);
+}
+
+.Location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -0px;
+}
+
+.Title-Head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Author-Profile {
+    border-radius: 20em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.Hero-Detail {
+    font-size: 15px;
+    width: 60em;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    line-height: 25px;
+    margin-top: -30px;
+}
