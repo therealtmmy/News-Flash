@@ -2,6 +2,9 @@ let button = document.getElementById("sliderIcon");
 let buttonOne = document.getElementById("sliderIconOne");
 let whole = document.getElementById("one");
 let signbutton = document.getElementById("sign");
+let inputContainer = document.getElementById("input");
+let turnOut = document.getElementById("output");
+const RegEmail = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 const property = [
   {
@@ -39,9 +42,18 @@ button.addEventListener("click", (event) => {
 });
 
 signbutton.addEventListener("click", () => {
-  if (input.value === undefined) {
-    return signbutton;
+  if (inputContainer.value === "" || inputContainer.value === undefined) {
+    turnOut.innerText = "Please provide us your Email";
+    turnOut.style.color = "Red";
+  } else if (!inputContainer.value.match(RegEmail)) {
+    turnOut.innerText = "Please enter a Valid Email";
+    turnOut.style.color = "Red";
+  } else {
+    turnOut.style.color = "Green";
+    turnOut.innerText = "Thank you for Subscribing to our News Channel";
   }
-
-  resultValue.textContent += "<p>Subscribed</p>";
 });
+
+// (inputContainer.value == inputContainer.type) {
+//   return (turnOut.innerText = "Thank you for Subscribing");
+// }
