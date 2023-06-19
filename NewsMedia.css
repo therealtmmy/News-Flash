@@ -24,6 +24,11 @@
         align-items: center;
         visibility: hidden;
      line-height: 2em;
+     margin-bottom: -120px;
+    }
+
+    .Nav-Three > a {
+        color: white;
     }
 
     .Nav-Three.overlay {
@@ -52,7 +57,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     img {
