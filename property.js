@@ -4,6 +4,8 @@ let whole = document.getElementById("one");
 let signbutton = document.getElementById("sign");
 let inputContainer = document.getElementById("input");
 let turnOut = document.getElementById("output");
+let hamburger = document.getElementById("icon");
+let links = document.getElementById("Nav-Three");
 const RegEmail = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 const property = [
@@ -54,6 +56,7 @@ signbutton.addEventListener("click", () => {
   }
 });
 
-// (inputContainer.value == inputContainer.type) {
-//   return (turnOut.innerText = "Thank you for Subscribing");
-// }
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("icon");
+  links.classList.toggle("overlay");
+});
