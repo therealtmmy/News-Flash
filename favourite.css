@@ -21,6 +21,10 @@
     top: 0%;
 }
 
+#icon {
+    display: none;
+}
+
 .Nav-Text {
     display: flex;
     justify-content: center;
@@ -36,6 +40,10 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
+}
+
+.Nav-Three {
+    display: none;
 }
 
 

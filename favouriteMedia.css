@@ -1,0 +1,86 @@
+@media screen and (max-width: 600px) { 
+
+    .Nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 20px;
+       position: sticky;
+        top: 0%;
+    }
+    
+    .Nav-Two {
+        display: none;
+    }
+    
+
+    .Nav-Three {
+        display: block;
+        justify-content: center;
+       padding-top: 15px;
+        background-color: black;
+        height: 7em;
+        align-items: center;
+        visibility: hidden;
+        position: sticky;
+        top: 0%;
+     line-height: 2em;
+    }
+
+    .Nav-Three.overlay {
+        visibility: visible;
+    }
+
+    .Nav-Three > a {
+        color: white;
+    }
+
+    #icon {
+        display: block;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    h2 {
+        margin-top: -4em;
+        margin-left: 25px;
+        margin-bottom: 15em;
+        font-size: 25px;
+    }
+    
+    .RowFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        height: 0vh;
+        margin-left: 0px;
+        margin-top: 40em;
+        margin-bottom: 45em;
+    }
+    
+
+    .footer {
+        width: 100%;
+        height: 35em;
+    }
+
+    .footer > h1 {
+        font-size: 25px;
+    }
+    
+
+    .footer > p {
+        font-size: 15px;
+    }
+    
+
+    .text {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 20em;
+        overflow-x: hidden;
+        font-size: 15px;
+    }
+}
