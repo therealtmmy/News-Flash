@@ -7,6 +7,7 @@
         gap: 9em;
         padding-left: 20px;
        position: sticky;
+       z-index: 2;
         top: 0%;
     }
     
@@ -14,17 +15,19 @@
         display: none;
     }
     
-
     .Nav-Three {
         display: block;
         justify-content: center;
-       padding-top: 15px;
+       padding-top: 25px;
         background-color: black;
         height: 7em;
         align-items: center;
         visibility: hidden;
      line-height: 2em;
      margin-bottom: -120px;
+     position: sticky;
+     top: 6%;
+     z-index: 0;
     }
 
     .Nav-Three > a {

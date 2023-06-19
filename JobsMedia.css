@@ -31,6 +31,8 @@
         visibility: hidden;
      line-height: 2em;
      margin-bottom: -120px;
+     position: sticky;
+     z-index: 1;
     }
 
     .Nav-Three > a {
