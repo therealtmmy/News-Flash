@@ -6,6 +6,8 @@
         align-items: center;
         justify-content: center;
         padding-left: 10px;
+       position: sticky;
+        top: 0%;
     }
     
     .Nav-Two {
@@ -16,12 +18,14 @@
     .Nav-Three {
         display: block;
         justify-content: center;
-       padding-top: 10px;
+       padding-top: 15px;
         background-color: black;
-        height: 5em;
+        height: 7em;
         align-items: center;
         visibility: hidden;
-     
+        position: sticky;
+        top: 0%;
+     line-height: 2em;
     }
 
     .Nav-Three.overlay {
