@@ -1,10 +1,7 @@
-var navbar = document.querySelector('#nav')
+let hamburger = document.getElementById("icon");
+let links = document.getElementById("Nav-Three");
 
-window.onscroll = function() {
-
-  if (window.pageYOffset > 200) {
-    navbar.classList.add('scrolled')
-  } else {
-    navbar.classList.remove('scrolled')
-  }
-}
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("icon");
+  links.classList.toggle("overlay");
+});

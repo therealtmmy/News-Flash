@@ -15,7 +15,7 @@
 
 
 .Nav {
-    background: #000000;
+    background: #0b0b0b;
     height: 60px;
     text-align: center;
     display: flex;
@@ -26,7 +26,6 @@
     position: sticky;
     top: 0%;
 }
-
 .Nav-Text {
     display: flex;
     justify-content: center;
@@ -42,6 +41,15 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
+}
+
+#icon {
+    display: none;
+}
+
+
+.Nav-Three {
+    display: none;
 }
 
 
